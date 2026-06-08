@@ -24,14 +24,13 @@ const DashboardPage = () => {
     }, []);
 
     const filteredData = data.filter((user) => {
-        const fullName = `${user.firstName} ${user.lastName}`.toLowerCase();
-        return fullName.includes(inputValue.toLowerCase());
+        return user.name.toLowerCase().includes(inputValue.toLowerCase());
     });
     
     const handleSortByName = () => {
         const sortedData = [...filteredData].sort((a, b) => {
-            const nameA = `${a.firstName} ${a.lastName}`.toLowerCase();
-            const nameB = `${b.firstName} ${b.lastName}`.toLowerCase();
+            const nameA = a.name.toLowerCase();
+            const nameB = b.name.toLowerCase();
             if (nameA < nameB) return -1;
             if (nameA > nameB) return 1;
             return 0;
