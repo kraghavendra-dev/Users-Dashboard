@@ -1,16 +1,43 @@
-# React + Vite
+# Users Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive React-based Users Dashboard application that fetches user data from API and displays it in both card and table views with search, sorting, and clean UI functionality.
 
-Currently, two official plugins are available:
+# Live Demo
+https://kraghavendra-dev.github.io/Users-Dashboard/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+# Features
+Fetch users data from API
+Responsive Card & Table View
+Search users by name/email
+Sort users dynamically
+Clean and reusable components
+Optimized UI with responsive design
+Loading & error handling
+Modern React Hooks implementation
 
-## React Compiler
+# Tech Stack
+React.js
+JavaScript (ES6+)
+CSS3
+REST API
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-## Expanding the ESLint configuration
+# API Used
+https://jsonplaceholder.typicode.com/users
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+# Functionalities
+View users in cards and table layout
+Search functionality for quick filtering
+Sorting users based on user details
+Fully responsive across devices
+
+# Future Improvements
+Pagination
+Dark Mode
+User Details Modal
+API Caching
+Advanced Filters
+
+# Author
+
+Developed by Raghavendra using React.js and modern frontend practices.
